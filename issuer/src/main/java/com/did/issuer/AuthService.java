@@ -2,6 +2,7 @@ package com.did.issuer;
 
 import com.did.issuer.domain.AuthDTO;
 import com.did.issuer.domain.Identity;
+import com.did.issuer.exception.NonExiststentException;
 import com.did.issuer.util.RedisUtil;
 import kotlinx.serialization.json.JsonObject;
 import lombok.RequiredArgsConstructor;
@@ -29,14 +30,14 @@ public class AuthService {
 
         // 인증번호 확인
         if(!verifyAuthNum(authDTO.getPhone(), authDTO.getAuthNum())){
-            return "FAIL";
+            return "인증번호가 틀렸습니다.";
         }
         // redis에 저장된 정보 삭제
         redisUtil.deleteData(authDTO.getPhone());
 
         // 가상의 민증 정보를 조회
         Identity identity = authRepository.findByPhone(authDTO.getPhone())
-                .orElseThrow(() -> new RuntimeException("존재하지 않는 인간입니다."));
+                .orElseThrow(() -> new NonExiststentException("존재하지 않는 인간입니다."));
 
         // 1. Document 생성
         String did = makeDocument(authDTO.getPublicKey());
@@ -67,6 +68,7 @@ public class AuthService {
 
     }
 
+    // Document 생성 및 Blockchain 서버에 전송
     private String makeDocument(String publicKey) {
         JSONObject req = new JSONObject();
         req.put("id","did");
