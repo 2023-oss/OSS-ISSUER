@@ -1,8 +1,10 @@
 package com.did.issuer.exception;
 
+import lombok.Getter;
+
 import java.util.HashMap;
 import java.util.Map;
-
+@Getter
 public abstract class IssuerException extends RuntimeException {
     public final Map<String, String> validation = new HashMap<>();
     public IssuerException(String message){
