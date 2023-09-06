@@ -36,9 +36,9 @@ public class AuthController {
         // redis에 인증번호 저장
         redisUtil.setDataExpire(to, verificationCode, 60*30L);
         log.info(redisUtil.getData(to));
-        return ResponseEntity.status(HttpStatus.OK).body(redisUtil.getData(to));
+//        return ResponseEntity.status(HttpStatus.OK).body(redisUtil.getData(to));
         // 인증번호 문자 전송
-//        return ResponseEntity.status(HttpStatus.OK).body(smsUtil.sendOne(to, verificationCode));
+        return ResponseEntity.status(HttpStatus.OK).body(smsUtil.sendOne(to, verificationCode));
     }
 
 
