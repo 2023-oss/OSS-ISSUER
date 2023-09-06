@@ -1,4 +1,4 @@
-# :sparkles: Issuer
+# ⚡ Issuer
 본인인증이 완료된 Holder에게 `VC(Verifiable Credential)`를 발급합니다.
 <br/>
 
