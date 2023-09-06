@@ -29,5 +29,6 @@ $ java -jar $REPOSITORY/$JAR_NAME
 ### step2 - VC 발급
 - 본인인증에 성공한 Holder에게 `VC를 발급`
 - Holder가 전달한 publicKey를 블록체인 서버에 전달
-
+<center>
 <img src="https://user-images.githubusercontent.com/83829352/265966855-2a92728a-cc09-403b-80e0-9ac5c74a335d.png" width=500px>
+</center>
