@@ -1,4 +1,4 @@
-
+[Korean Document](https://github.com/2023-oss/OSS-ISSUER/blob/main/License)
 <h1 align="center">🏛Issuer</h1>
 
 <p align="center">
