@@ -15,7 +15,9 @@ Issue 'VC (Verifiable Credentials)' to holders who have completed self-authentic
 <br/>
  
 ## Installation and Execution
-The following environments are recommended| service | version |
+
+The following environments are recommended
+| service | version |
 |---------|---------|
 |**SpringBoot**|v2.7.x|
 |**Java**|v11|
