@@ -1,5 +1,4 @@
 <h1 align="center">Issuer</h1>
-<hr/>
 
 <p align="center">
 <img src="https://img.shields.io/github/contributors/2023-oss/OSS-BACKEND">
