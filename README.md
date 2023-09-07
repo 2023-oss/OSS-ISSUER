@@ -1,26 +1,16 @@
 <h1 align="center">Issuer</h1>
 <hr/>
+
 <p align="center">
-<img src="https://img.shields.io/github/contributors/2023-oss/OSS-BACKEND
-">
-<img src="https://img.shields.io/github/languages/count/2023-oss/BACKEND
-">
+<img src="https://img.shields.io/github/contributors/2023-oss/OSS-BACKEND">
+<img src="https://img.shields.io/github/languages/count/2023-oss/BACKEND">
 <img alt="GitHub license" src="https://img.shields.io/github/issues/2023-oss/OSS-BACKEND">
 <img alt="GitHub license" src="https://img.shields.io/github/issues-closed/2023-oss/OSS-BACKEND">
 <img src="https://img.shields.io/github/license/2023-oss/OSS-BACKEND">
 </p>
 <br/>
 본인인증이 완료된 Holder에게 `VC(Verifiable Credential)`를 발급합니다.
-<p align="center">
-<img src="https://img.shields.io/github/contributors/2023-oss/OSS-PLATEWALLET
-">
-<img src="https://img.shields.io/github/languages/count/2023-oss/OSS-PLATEWALLET
-">
-<img alt="GitHub license" src="https://img.shields.io/github/issues/2023-oss/OSS-PLATEWALLET">
-<img alt="GitHub license" src="https://img.shields.io/github/issues-closed/2023-oss/OSS-PLATEWALLET">
-<img src="https://img.shields.io/github/license/2023-oss/OSS-PLATEWALLET">
-</p>
-<br/>
+
 
 <br/>
  
